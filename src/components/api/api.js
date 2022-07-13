@@ -19,7 +19,7 @@ export const request = async ({ url, method, data = null }) => {
 
     if (error.toString().includes('Network Error')) {
       return await console.log(
-        '네트워크 오류로 처리되지 않았습니다.\n다시 시도해주세요.'
+        '네트워크 오류로 처리되지 않았습니다. 다시 시도해주세요.'
       );
     }
   }
